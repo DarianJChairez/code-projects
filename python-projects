@@ -19,3 +19,15 @@ def check_length(text):
     else:
         return "Short"
 print (check_length("checking"))
+
+def sum_list(numbers):
+    total = 0
+    for num in numbers:
+        total += num
+return total
+
+def avg_list(numbers):
+    total = 0
+    for num in numbers:
+        total += num
+return total / len(numbers)
